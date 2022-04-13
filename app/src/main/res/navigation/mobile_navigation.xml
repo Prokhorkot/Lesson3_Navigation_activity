@@ -37,4 +37,14 @@
         android:name="com.mirea.kotov.mireaproject.MusicFragment"
         android:label="nav_fragment_music"
         tools:layout="@layout/nav_fragment_music" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.mirea.kotov.mireaproject.Settings"
+        android:label="nav_fragment_settings"
+        tools:layout="@layout/nav_fragment_settings" />
+    <fragment
+        android:id="@+id/stories"
+        android:name="com.mirea.kotov.mireaproject.Stories.Stories"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" />
 </navigation>

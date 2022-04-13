@@ -25,5 +25,11 @@
         <item
             android:id="@+id/musicFragment"
             android:title="Music"/>
+        <item
+            android:id="@+id/settings"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/stories"
+            android:title="Stories"/>
     </group>
 </menu>

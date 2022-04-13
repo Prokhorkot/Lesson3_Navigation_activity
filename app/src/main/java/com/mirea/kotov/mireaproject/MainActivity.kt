@@ -50,7 +50,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_slideshow,
                 R.id.nav_calculator,
                 R.id.webViewFragment,
-                R.id.musicFragment
+                R.id.musicFragment,
+                R.id.settings,
+                R.id.stories
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
