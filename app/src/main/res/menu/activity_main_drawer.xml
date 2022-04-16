@@ -31,5 +31,8 @@
         <item
             android:id="@+id/stories"
             android:title="Stories"/>
+        <item
+            android:id="@+id/httpRequest"
+            android:title="HTTP"/>
     </group>
 </menu>

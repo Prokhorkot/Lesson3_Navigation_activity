@@ -47,4 +47,9 @@
         android:name="com.mirea.kotov.mireaproject.Stories.Stories"
         android:label="fragment_stories"
         tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/httpRequest"
+        android:name="com.mirea.kotov.mireaproject.HttpRequest"
+        android:label="fragment_http_request2"
+        tools:layout="@layout/fragment_http_request" />
 </navigation>

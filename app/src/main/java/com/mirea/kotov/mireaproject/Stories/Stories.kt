@@ -32,7 +32,6 @@ import java.util.*
 import java.util.concurrent.TimeUnit
 
 class Stories : Fragment() {
-    val addButton: FloatingActionButton? = null
 
     private var dialog: Dialog? = null
     private lateinit var bindingLayout: FragmentStoriesBinding
@@ -135,7 +134,7 @@ class Stories : Fragment() {
     }
 
     private fun init() = with(bindingLayout){
-        recyclerView.layoutManager = GridLayoutManager(requireContext(), 3)
+        recyclerView.layoutManager = GridLayoutManager(requireContext(), 2)
         recyclerView.adapter = adapter
     }
 
