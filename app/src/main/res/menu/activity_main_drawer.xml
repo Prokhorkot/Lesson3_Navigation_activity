@@ -34,5 +34,8 @@
         <item
             android:id="@+id/httpRequest"
             android:title="HTTP"/>
+        <item
+            android:id="@+id/databaseFragment"
+            android:title="Database"/>
     </group>
 </menu>

@@ -53,7 +53,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.musicFragment,
                 R.id.settings,
                 R.id.stories,
-                R.id.httpRequest
+                R.id.httpRequest,
+                R.id.databaseFragment
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
