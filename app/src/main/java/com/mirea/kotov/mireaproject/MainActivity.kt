@@ -54,7 +54,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.settings,
                 R.id.stories,
                 R.id.httpRequest,
-                R.id.databaseFragment
+                R.id.databaseFragment,
+                R.id.mapsFragment
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

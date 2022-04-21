@@ -37,5 +37,8 @@
         <item
             android:id="@+id/databaseFragment"
             android:title="Database"/>
+        <item
+            android:id="@+id/mapsFragment"
+            android:title="Google maps"/>
     </group>
 </menu>

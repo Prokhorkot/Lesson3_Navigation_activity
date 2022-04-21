@@ -57,4 +57,9 @@
         android:name="com.mirea.kotov.mireaproject.room.DatabaseFragment"
         android:label="DatabaseFragment"
         tools:layout="@layout/fragment_database"/>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.mirea.kotov.mireaproject.googleMaps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>
